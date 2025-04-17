@@ -154,6 +154,10 @@ ol li::marker {
   background-color: #ddc2a9;
 }
 
+.bg-ryf4 {
+  background-color: #000000;
+}
+
 .text-justify {
   text-align: justify;
 }
