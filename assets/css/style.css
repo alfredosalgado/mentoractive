@@ -159,7 +159,7 @@ ol li::marker {
 }
 
 .text-justify {
-  text-align: justify;
+  text-align: center;
 }
 
 .sha {
@@ -1119,6 +1119,10 @@ body {
     
     padding: 2rem;
     
+  }
+
+  .text-justify {
+    text-align: justify;
   }
 }
 
