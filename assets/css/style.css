@@ -1045,12 +1045,38 @@ body {
 
 @media (max-width: 768px) {
   .client-container {
-      flex-direction: column;
-      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem; /* Reducimos el gap para que quepan mejor */
   }
 
   .client-card {
-      width: 90%;
+      width: calc(50% - 0.5rem); /* Dos columnas, restando la mitad del gap */
+      max-width: 200px; /* Límite máximo para evitar que se vean demasiado anchas */
+      padding: 1rem; /* Reducimos un poco el padding para ahorrar espacio */
+  }
+
+  .client-card__company {
+   
+    font-size: 1.2rem;
+    
+  }
+  
+  .client-card__industry {
+   
+    font-size: 0.8rem;
+  }
+  
+  .client-card__city {
+    
+    font-size: 0.8rem;
+  }
+  
+  .client-card__manager {
+    
+    font-size: 0.8rem;
+   
   }
 }
 
