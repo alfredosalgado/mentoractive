@@ -85,6 +85,54 @@ document.addEventListener('DOMContentLoaded', () => {
   // Datos de los clientes
   const clientData = [
       {
+          company: "LP Minería Ltda",
+          industry: "Servicios de mantención Maq. Mineras",
+          city: "Iquique",
+          manager: "Gerente General Andrés Portilla"
+      },
+      {
+          company: "Caribean Pharma",
+          industry: "Distribuidora de Insumos de Salud",
+          city: "Santiago",
+          manager: "Gerente General Jariel Meliz"
+      },
+      {
+          company: "CIA Minera Fresia Ltda",
+          industry: "Extracción minera",
+          city: "Coquimbo",
+          manager: "Gerente General Carlos Huidobro"
+      },
+      {
+          company: "Jardín Sushi",
+          industry: "Restaurant",
+          city: "La Serena",
+          manager: "Dueña Victoria Hinojosa"
+      },
+      {
+          company: "Serón Ice Ltda",
+          industry: "Comercializadora de abarrotes",
+          city: "Coquimbo",
+          manager: "Gerente General Cesar Lara"
+      },
+      {
+          company: "Serón Maquinarias Ltda",
+          industry: "Com. de maquinaria de cocina",
+          city: "La Serena",
+          manager: "Gerente General Cesar Lara"
+      },
+      {
+          company: "Bisont Ltda",
+          industry: "Telecomunicaciones",
+          city: "Coquimbo",
+          manager: "Gerente General Evans Pasten Llewellyn"
+      },
+      {
+          company: "Colegio Educa el Porvenir S.A.",
+          industry: "Educación",
+          city: "Coquimbo",
+          manager: "Sostenedora Carolina Alday"
+      },
+      {
           company: "Moliendas LempAyala Ltda",
           industry: "Industria Molienda",
           city: "Santiago",
@@ -114,54 +162,24 @@ document.addEventListener('DOMContentLoaded', () => {
           city: "Santiago",
           manager: "Gerente General Francisco Madrid"
       },
-      {
-          company: "Caribean Pharma",
-          industry: "Distribuidora de Insumos de Salud",
-          city: "Santiago",
-          manager: "Gerente General Jariel Meliz"
-      },
+      
       {
           company: "Tu Puedes ONG",
           industry: "Clínica de Rehabilitación",
           city: "Santiago",
           manager: "Dueño Ricardo Reyes"
       },
-      {
-          company: "LP Minería Ltda",
-          industry: "Servicios de mantención Maq. Mineras",
-          city: "Iquique",
-          manager: "Gerente General Andrés Portilla"
-      },
-      {
-          company: "CIA Minera Fresia Ltda",
-          industry: "Extracción minera",
-          city: "Coquimbo",
-          manager: "Gerente General Carlos Huidobro"
-      },
+      
+      
       {
           company: "Restaurant El Pino",
           industry: "Restaurant",
           city: "La Serena",
           manager: "Dueña María Soledad Díaz"
       },
-      {
-          company: "Jardín Sushi",
-          industry: "Restaurant",
-          city: "La Serena",
-          manager: "Dueña Victoria Hinojosa"
-      },
-      {
-          company: "Serón Ice Ltda",
-          industry: "Comercializadora de abarrotes",
-          city: "Coquimbo",
-          manager: "Gerente General Cesar Lara"
-      },
-      {
-          company: "Serón Maquinarias Ltda",
-          industry: "Com. de maquinaria de cocina",
-          city: "La Serena",
-          manager: "Gerente General Cesar Lara"
-      },
+      
+      
+      
       {
           company: "Vasgo Constructora Ltda",
           industry: "Constructora",
@@ -180,18 +198,8 @@ document.addEventListener('DOMContentLoaded', () => {
           city: "La Serena",
           manager: "Dueña Pilar Morlans"
       },
-      {
-          company: "Bisont Ltda",
-          industry: "Telecomunicaciones",
-          city: "Coquimbo",
-          manager: "Gerente General Evans Pasten Llewellyn"
-      },
-      {
-          company: "Colegio Educa el Porvenir S.A.",
-          industry: "Educación",
-          city: "Coquimbo",
-          manager: "Sostenedora Carolina Alday"
-      }
+      
+      
   ];
 
   // Seleccionar el contenedor

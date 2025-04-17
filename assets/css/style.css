@@ -935,6 +935,7 @@ body {
   justify-content: center;
   gap: 1.5rem; /* Espacio entre logotipos */
   max-width: 1200px;
+  
 }
 
 .provider-card {
@@ -1097,6 +1098,11 @@ body {
 
   .heightcont {
     height: 7rem;
+  }
+
+  .provider-container {
+    
+    padding: 0 4rem;
   }
 }
 
