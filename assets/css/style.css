@@ -915,7 +915,7 @@ body {
 /* Estilos CSS para la sección de proveedores */
 .provider-section {
   background-color: #f4f4f9; /* Fondo claro */
-  padding: 2rem;
+  padding: 0.7rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
   width: 100%;
@@ -1087,6 +1087,12 @@ body {
 @media (min-width: 425px) {
   .text {
     height: 12.5rem;
+  }
+
+  .provider-section {
+    
+    padding: 2rem;
+    
   }
 }
 
